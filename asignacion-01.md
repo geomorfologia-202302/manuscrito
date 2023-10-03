@@ -1,4 +1,4 @@
-Asignación de manuscrito 1. Resultados
+Asignación de manuscrito 1. Redacción de resultados
 ================
 <b>José-Ramón Martínez-Batlle</b> (<jmartinez19@uasd.edu.do>) <br>
 Facultad de Ciencias, Universidad Autónoma de Santo Domingo (UASD) <br>
@@ -7,6 +7,13 @@ Santo Domingo, República Dominicana
 <!-- asignacion-01.md se genera a partir de asignacion-01.Rmd Por favor, edita ese archivo. -->
 
 > Fecha límite de entrega: 8 de octubre de 2023, 23:59 horas.
+
+> Entrega tu documento vía correo electrónico en formato nativo. En el
+> caso de usar software de interfaz gráfica, como Microsoft Word o
+> LibreOffice Writer, entrega tanto el archivo nativo .docx o .odt como
+> el PDF. En el caso de usar procesadores de texto como LaTeX, Overleaf,
+> RMmarkdown, entrega tanto el PDF como la carpeta (comprimida en ZIP)
+> conteniendo los archivos necesarios para compilar el PDF.
 
 # Asignación de manuscrito 1. Resultados
 
@@ -22,7 +29,7 @@ hecho, muchas investigaciones inician cuando se despierta la curiosidad
 de quien investiga, es decir, cuando a alguien le surgen una o varias
 preguntas, y tiene la motivación suficiente para responderlas.
 
-Pero en la práctica, esto no suele ser así, pues no existe una fórmula
+Pero en el mundo real, esto no suele ser así, pues no existe una fórmula
 cerrada y el camino no es lineal, sobre todo para quienes se inician en
 la ciencia. Quien tiene experiencia investigando, normalmente se ha
 expuesto a montones datos y, en particular, quien investiga en
@@ -40,7 +47,8 @@ estarás viajando por el manuscrito en múltiples direcciones.
 
 ## Recupera tu técnica y tu sistema geomorfológico
 
-Recupera tu práctica 2 y anota tu técnica y sistema geomorfológico.
+Recupera tu práctica 2 y anota tu técnica y sistema geomorfológico
+elegidos.
 
 ## Descarga tus datos
 
@@ -69,68 +77,115 @@ crucial indagar en el potencial de cada nuevo producto disponible.
 
 ## Manipula tus datos
 
-Aplica la técnica geomorfométrica usando la herramienta de tu
+Aplica la técnica geomorfométrica elegida usando la herramienta de tu
 preferencia (e.g. QGIS, GRASS GIS, R, Python). Si usas interfaz gráfica,
 deberás anotar todos los pasos que agotes, preferiblemente usando
-captura de pantalla. Si usas código, te resultará muy fácil documentar
-los pasos, pues dejarás huella con cada sentencia ejecutada;
-simplemente, crea un *script* y guárdalo. Haré demostraciones en aula de
-cada técnica con herramientas sugeridas. En general, las más comunes
+captura de pantalla, nombradas de forma secuencial para que recuerdes el
+orden de los pasos dados. Si usas código, te resultará muy fácil
+documentar los pasos, pues dejarás huella con cada sentencia ejecutada;
+simplemente, crea un *script* y guárdalo. Haré demostraciones en el aula
+de cada técnica con herramientas sugeridas. En general, las más comunes
 son:
 
--   Parámetros básicos de la superficie del terreno (locales y
-    regionales). Capítulo 6 de Hengl et al. (2009). En este caso, lo
-    común es obtener parámetros para realizar análisis estadísticos.
-    Normalmente, nos referimos a parámetros como pendiente, aspecto,
-    curvatura tangencial, curvatura de perfil, área de captación,
-    hipsometría, altura/pendiente de captación, insolación, exposición
-    visual, rugosidad.
+- Parámetros básicos de la superficie del terreno (locales y
+  regionales). Capítulo 6 de Hengl et al. (2009). En este caso, lo común
+  es obtener parámetros para realizar análisis estadísticos.
+  Normalmente, nos referimos a parámetros como pendiente, aspecto,
+  curvatura tangencial, curvatura de perfil, área de captación,
+  hipsometría, altura/pendiente de captación, insolación, exposición
+  visual, rugosidad.
 
--   Parámetros de la superficie del terreno y objetos hidrológicos.
-    Capítulo 7 de Hengl et al. (2009). En este caso, lo común es aplicar
-    estas técnicas para extraer una red hidrográfica. Normalmente, el
-    proceso implica obtener productos hidrológicos a partir de un DEM,
-    comenzando por un mapa de acumulación y de dirección de flujo,
-    extrayendo redes de drenaje y límites de cuenca, y luego obteniendo
-    estadística hortoniana (orden de red, razón de bifurcación) y
-    análisis topográficos (pendiente, concavidad, etc.).
-    [Aquí](https://github.com/geofis/red-hidrografica-densa-rd/blob/master/preprint-baja-res.pdf)
-    puedes encontrar un ejemplo. Análisis más avanzados implican
-    calcular anchura de valle, características de llanura de inundación,
-    riesgos por inundación, entre otros.
+- Parámetros de la superficie del terreno y objetos hidrológicos.
+  Capítulo 7 de Hengl et al. (2009). En este caso, lo común es aplicar
+  estas técnicas para extraer una red hidrográfica. Normalmente, el
+  proceso implica obtener productos hidrológicos a partir de un DEM,
+  comenzando por un mapa de acumulación y de dirección de flujo,
+  extrayendo redes de drenaje y límites de cuenca, y luego obteniendo
+  estadística hortoniana (orden de red, razón de bifurcación) y análisis
+  topográficos (pendiente, concavidad, etc.).
+  [Aquí](https://github.com/geofis/red-hidrografica-densa-rd/blob/master/preprint-baja-res.pdf)
+  puedes encontrar un ejemplo. Análisis más avanzados implican calcular
+  anchura de valle, características de llanura de inundación, riesgos
+  por inundación, entre otros.
 
--   Parámetros de la superficie del terreno para topoclimas. Capítulo 8
-    de Hengl et al. (2009). Cálculo de horas de insolación (insolación
-    topográfica), generación de superficies continuas de variables
-    climáticas (temperatura, precipitación) a partir de modelos de
-    regresión espacializado (e.g. kriging universal o splines).
+- Parámetros de la superficie del terreno para topoclimas. Capítulo 8 de
+  Hengl et al. (2009). Cálculo de horas de insolación (insolación
+  topográfica), generación de superficies continuas de variables
+  climáticas (temperatura, precipitación) a partir de modelos de
+  regresión espacializado (e.g. kriging universal o splines).
 
--   Formas y formas elementales. Capítulo 10 de Hengl et al. (2009).
-    Clasifcación del relieve a partir de modelos digitales de elevación,
-    tales como:
+- Formas y formas elementales. Capítulo 10 de Hengl et al. (2009).
+  Clasifcación del relieve a partir de modelos digitales de elevación,
+  tales como:
 
-    -   Interfluvio, ladera de filtración, ladera convexa de reptación,
-        cara de caída, ladera media de transporte, pie de ladera
-        coluvial, pie de ladera aluvial, pared de canal, lecho de canal
+  - Interfluvio, ladera de filtración, ladera convexa de reptación, cara
+    de caída, ladera media de transporte, pie de ladera coluvial, pie de
+    ladera aluvial, pared de canal, lecho de canal
 
-    -   Cresta, depresión (abierta, cerrada), plano, pendiente,
-        pendiente simple, pendiente superior, pendiente media, pendiente
-        inferior, montecillo, loma
+  - Cresta, depresión (abierta, cerrada), plano, pendiente, pendiente
+    simple, pendiente superior, pendiente media, pendiente inferior,
+    montecillo, loma
 
-    -   Llanura, pico, loma o interfluvio, hombrera, espolón (gajo),
-        vertiente (pendiente), vaguada o hondonada, piedemonte, valle,
-        sima o sumidero (fondo).
+  - Llanura, pico, loma o interfluvio, hombrera, espolón (gajo),
+    vertiente (pendiente), vaguada o hondonada, piedemonte, valle, sima
+    o sumidero (fondo).
 
 ## Redacta tus resultados
 
-La sección de resultados es la parte más analítica del manuscrito y, por
-supuesto, está conectada con la sección “Metodología” e “Introducción”.
-Aquí analizas tus datos y muestras lo obtenido tras aplicar los métodos,
+La sección de resultados, que es lo único que entregarás en esta
+asignación, es la parte más analítica del manuscrito y, por supuesto,
+está conectada con la sección “Metodología” e “Introducción”. Aquí
+analizas tus datos y muestras lo obtenido tras aplicar los métodos,
 técnicas y herramientas, manteniéndote siempre dentro del problema que
 elegiste resolver y sin incluir valoraciones ni interpretaciones. Esta
 sección responde a la pregunta ¿qué?
 
-No olvides el recuadro sobre el tipo de voz a usar.
+Deberás aplicar lo aprendido en la práctica 2 sobre reproducibilidad,
+redacción, estilos de formato, figuras, tablas, citas y referencias. Si
+usas Microsoft Word o LibreOffice Writer, puedes buscar plantillas de
+artículos (puedes usar las de algunas editoriales) o usar [esta
+plantilla](data/plantilla.docx) si la consideras útil (ver notas a
+continuación). No obstante, con independencia de la plantilla usada, lo
+importante es que apliques lo aprendido en la práctica 2.
+
+Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
+
+Para el manuscrito, pueden usar la plantilla de Microsoft Word adjunta
+(ayer abrí una PC con Windows, me siento realizado). La hice
+conjuntamente con tres de sus compañeros que se acercaron ayer jueves al
+aula FC-203. Algunas observaciones:
+
+- Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
+  que te puedes basar para crear otros.
+- Al ser una plantilla, si la abres con “doble-click”, se creará un
+  documento basado en ella que posteriormente deberás guardar con un
+  nombre asignado por ti.
+- Puedes usarla en GoogleDocs y en LibreOffice Writer también, pero su
+  compatibilidad máxima se consigue en Microsoft Word.
+- La plantilla básicamente contiene definiciones de estilos para el
+  título principal, títulos de nivel 1 a 3, texto de cuerpo (estilo
+  “Normal”), texto de tablas, texto de pies de figuras y tablas,
+  bibliografía, y estilo de párrafo para las figuras (suena raro, pero
+  sí, las figuras “no flotantes”, que se comportan como texto, también
+  tiene definición de estilos). Faltan estilos, como los de autor,
+  viñetas, etc. Los puedes crear libremente.
+- El texto y las figuras que he colocado de ejemplo son un mero relleno.
+  Verás que puse una tabla, una figura, una ecuación, algunas citas y la
+  lista de referencias. Debes borrar todo el contenido de ejemplo, pues
+  es irrelevante para tu manuscrito.
+- No es obligatorio usar esta plantilla, sólo úsala si la ves útil. Si
+  ya dispones de un documento donde usas estilos apropiadamente, puedes
+  seguir por esa vía. Si ya tienes un documento comenzado, y quieres
+  basarte en los estilos de esta plantilla, puedes importar sus estilos
+  (los de la plantilla) a tu documento (hay tutoriales sobre ello, como
+  [éste](https://www.youtube.com/watch?v=YG7FhZvR2Do)).
+- No me canso de repetirlo: consulta al tali. Es viable por correo, sólo
+  que es necesario indicar qué problema obtuviste (error, fallo de
+  funcionalidad, etc.) al intentar hacer qué cosa. Por ejemplo: “*me dio
+  error A al intentar ejecutar B, aquí dejo una captura de pantalla*”.
+
+Finalmente, transcribo el recuadro sobre el tipo de voz a usar para
+refrescarlo nuevamente; asegúrate de seguir estas recomendaciones.
 
 > **RECUADRO: recomendaciones básicas de redacción**
 >
@@ -141,13 +196,13 @@ No olvides el recuadro sobre el tipo de voz a usar.
 >
 > **Voz activa en manuscrito científicos:**
 >
-> -   **Analicé** los datos utilizando el software R.
+> - **Analicé** los datos utilizando el software R.
 >
-> -   El experimento **mostró** que la temperatura afecta directamente
->     la tasa de reacción.
+> - El experimento **mostró** que la temperatura afecta directamente la
+>   tasa de reacción.
 >
-> -   Los investigadores **encontraron** una correlación significativa
->     entre las dos variables.
+> - Los investigadores **encontraron** una correlación significativa
+>   entre las dos variables.
 >
 > La voz activa puede hacer que la redacción parezca más directa y
 > clara, y es especialmente útil cuando el/la autor/a quiere enfatizar
@@ -156,13 +211,13 @@ No olvides el recuadro sobre el tipo de voz a usar.
 >
 > **Voz pasiva en artículos científicos:**
 >
-> -   Los datos **fueron analizados** utilizando el software R.
+> - Los datos **fueron analizados** utilizando el software R.
 >
-> -   **Se observó** que la temperatura afecta directamente la tasa de
->     reacción.
+> - **Se observó** que la temperatura afecta directamente la tasa de
+>   reacción.
 >
-> -   Una correlación significativa **fue encontrada** entre las dos
->     variables.
+> - Una correlación significativa **fue encontrada** entre las dos
+>   variables.
 >
 > La voz pasiva es común en la redacción científica porque a menudo se
 > prefiere un tono más impersonal, enfocando la atención en los
