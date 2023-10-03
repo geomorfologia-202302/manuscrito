@@ -144,16 +144,11 @@ Deberás aplicar lo aprendido en la práctica 2 sobre reproducibilidad,
 redacción, estilos de formato, figuras, tablas, citas y referencias. Si
 usas Microsoft Word o LibreOffice Writer, puedes buscar plantillas de
 artículos (puedes usar las de algunas editoriales) o usar [esta
-plantilla](data/plantilla.docx) si la consideras útil (ver notas a
-continuación). No obstante, con independencia de la plantilla usada, lo
-importante es que apliques lo aprendido en la práctica 2.
+plantilla](data/plantilla-manuscrito.dotx) si la consideras útil (ver
+notas a continuación). No obstante, con independencia de la plantilla
+usada, lo importante es que apliques lo aprendido en la práctica 2.
 
 Si vas a usar la plantilla facilitada por mí, te doy algunos consejos:
-
-Para el manuscrito, pueden usar la plantilla de Microsoft Word adjunta
-(ayer abrí una PC con Windows, me siento realizado). La hice
-conjuntamente con tres de sus compañeros que se acercaron ayer jueves al
-aula FC-203. Algunas observaciones:
 
 - Investiga sobre qué es una plantilla. Básicamente, es un archivo en el
   que te puedes basar para crear otros.
